@@ -7,14 +7,11 @@ import lombok.Data;
 
 @Entity
 @Data
-public class CartItem extends BaseEntity {
-    @ManyToOne
-    @NotNull
-    private User user;
+public class ReservationItem extends BaseEntity {
 
     @ManyToOne
     @NotNull
-    private Club club;
+    private Reservation reservation;
 
     @ManyToOne
     @NotNull
