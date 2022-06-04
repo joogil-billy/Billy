@@ -6,10 +6,6 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.context.annotation.PropertySources;
 
 @SpringBootApplication
-@PropertySources({
-	@PropertySource("classpath:secrets/mysql.properties"),
-	@PropertySource("classpath:secrets/security.properties")
-})
 public class BillyApplication {
 
 	public static void main(String[] args) {
