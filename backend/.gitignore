@@ -40,4 +40,5 @@ build/
 billy.log*
 
 # properties secret
-/src/main/resources/secrets/*
+/src/main/resources/application-local.properties
+/src/main/resources/application-release.properties
